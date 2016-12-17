@@ -11,7 +11,8 @@ namespace ConsoleApplication
         {
             ShowDotnetProcess();
             TestDelegate();
-
+            TestFunctions();
+            TestActions();
 
 
 
@@ -27,7 +28,17 @@ namespace ConsoleApplication
         static void TestDelegate()
         {
             Delegates.useDelegate();
+            
+        }
+
+        static void TestFunctions()
+        {
             Funcs.useFunc();
+        }
+
+        static void TestActions()
+        {
+            Actions.useActions();
         }
     }
 }

@@ -5,6 +5,7 @@ public class Delegates
     public delegate decimal MyDelegate (int a, int b);
     public static void useDelegate()
     {
+        Console.WriteLine("using Delegate");
         Console.WriteLine(Calculate(1, 2, Add));
         Console.WriteLine(Calculate(1, 2, Subtract));
         Console.WriteLine(Calculate(3, 5, (a, b) => {

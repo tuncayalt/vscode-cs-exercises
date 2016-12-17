@@ -5,6 +5,7 @@ public class Funcs
 
     public static void useFunc()
     {
+        Console.WriteLine("using Func");
         Console.WriteLine(Calculate(1,2,add));
         Console.WriteLine(Calculate(1,2,subtract));
         Console.WriteLine(Calculate(2,3,(a,b) => {
